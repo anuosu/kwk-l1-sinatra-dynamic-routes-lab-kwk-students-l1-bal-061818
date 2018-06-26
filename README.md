@@ -10,7 +10,8 @@ all of the `learn` tests to pass.
 
 In some of the tests you might notice `%20` between words in a URL. URLs are not
 allowed to have spaces in them. Something like this `www.facebook.com/flatiron
-school` would never work as a website name. The `%` sign in a URL is called `URL
+schoo
+` would never work as a website name. The `%` sign in a URL is called `URL
 encoding`. Basically, it replaces unsafe characters for a URL with appropriate
 ASCII characters.
 
