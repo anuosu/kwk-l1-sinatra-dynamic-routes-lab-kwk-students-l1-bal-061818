@@ -12,4 +12,10 @@ class App < Sinatra::Base
     @result = @reversename.reverse
     @result
   end
+  
+  get '/square/:number'do
+    @reversename = params[:name]
+    @result = @reversename.to_i
+    @result
+  end
 end
